@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 
 function Home() {
   return (
@@ -6,34 +7,34 @@ function Home() {
         <h3 className="pb-1 mb-4">Latest Courses <a href="#" className="float-end">See All</a></h3>
         <div className="row">
             <div className="col-md-3">
-            <div class="card">
-                <a href="#"><img src="logo512.png" class="card-img-top" alt="..."></img></a>
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Course title</a></h5>
+            <div className="card">
+                <Link to="/detail/1"><img src="logo512.png" className="card-img-top" alt="..."></img></Link>
+                    <div className="card-body">
+                        <h5 className="card-title"><Link to="/detail/1">Course title</Link></h5>
                     </div>
                 </div>
             </div>
             <div className="col-md-3">
-            <div class="card">
-                <a href="#"><img src="logo512.png" class="card-img-top" alt="..."></img></a>
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Course title</a></h5>
+            <div className="card">
+                <a href="#"><img src="logo512.png" className="card-img-top" alt="..."></img></a>
+                    <div className="card-body">
+                        <h5 className="card-title"><a href="#">Course title</a></h5>
                     </div>
                 </div>
             </div>
             <div className="col-md-3">
-            <div class="card">
-                <a href="#"><img src="logo512.png" class="card-img-top" alt="..."></img></a>
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Course title</a></h5>
+            <div className="card">
+                <a href="#"><img src="logo512.png" className="card-img-top" alt="..."></img></a>
+                    <div className="card-body">
+                        <h5 className="card-title"><a href="#">Course title</a></h5>
                     </div>
                 </div>
             </div>
             <div className="col-md-3">
-            <div class="card">
-                <a href="#"><img src="logo512.png" class="card-img-top" alt="..."></img></a>
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Course title</a></h5>
+            <div className="card">
+                <a href="#"><img src="logo512.png" className="card-img-top" alt="..."></img></a>
+                    <div className="card-body">
+                        <h5 className="card-title"><a href="#">Course title</a></h5>
                     </div>
                 </div>
             </div>
@@ -43,34 +44,34 @@ function Home() {
         <h3 className="pb-1 my-4 mt-5">Popular Courses <a href="#" className="float-end">See All</a></h3>
         <div className="row">
             <div className="col-md-3">
-            <div class="card">
-                <a href="#"><img src="logo512.png" class="card-img-top" alt="..."></img></a>
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Course title</a></h5>
+            <div className="card">
+                <a href="#"><img src="logo512.png" className="card-img-top" alt="..."></img></a>
+                    <div className="card-body">
+                        <h5 className="card-title"><a href="#">Course title</a></h5>
                     </div>
                 </div>
             </div>
             <div className="col-md-3">
-            <div class="card">
-                <a href="#"><img src="logo512.png" class="card-img-top" alt="..."></img></a>
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Course title</a></h5>
+            <div className="card">
+                <a href="#"><img src="logo512.png" className="card-img-top" alt="..."></img></a>
+                    <div className="card-body">
+                        <h5 className="card-title"><a href="#">Course title</a></h5>
                     </div>
                 </div>
             </div>
             <div className="col-md-3">
-            <div class="card">
-                <a href="#"><img src="logo512.png" class="card-img-top" alt="..."></img></a>
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Course title</a></h5>
+            <div className="card">
+                <a href="#"><img src="logo512.png" className="card-img-top" alt="..."></img></a>
+                    <div className="card-body">
+                        <h5 className="card-title"><a href="#">Course title</a></h5>
                     </div>
                 </div>
             </div>
             <div className="col-md-3">
-            <div class="card">
-                <a href="#"><img src="logo512.png" class="card-img-top" alt="..."></img></a>
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Course title</a></h5>
+            <div className="card">
+                <a href="#"><img src="logo512.png" className="card-img-top" alt="..."></img></a>
+                    <div className="card-body">
+                        <h5 className="card-title"><a href="#">Course title</a></h5>
                     </div>
                 </div>
             </div>
@@ -80,34 +81,34 @@ function Home() {
         <h3 className="pb-1 my-4 mt-5">Popular Teachers <a href="#" className="float-end">See All</a></h3>
         <div className="row">
             <div className="col-md-3">
-            <div class="card">
-                <a href="#"><img src="logo512.png" class="card-img-top" alt="..."></img></a>
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Teacher name</a></h5>
+            <div className="card">
+                <a href="#"><img src="logo512.png" className="card-img-top" alt="..."></img></a>
+                    <div className="card-body">
+                        <h5 className="card-title"><a href="#">Teacher name</a></h5>
                     </div>
                 </div>
             </div>
             <div className="col-md-3">
-            <div class="card">
-                <a href="#"><img src="logo512.png" class="card-img-top" alt="..."></img></a>
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Teacher name</a></h5>
+            <div className="card">
+                <a href="#"><img src="logo512.png" className="card-img-top" alt="..."></img></a>
+                    <div className="card-body">
+                        <h5 className="card-title"><a href="#">Teacher name</a></h5>
                     </div>
                 </div>
             </div>
             <div className="col-md-3">
-            <div class="card">
-                <a href="#"><img src="logo512.png" class="card-img-top" alt="..."></img></a>
+            <div className="card">
+                <a href="#"><img src="logo512.png" className="card-img-top" alt="..."></img></a>
                     <div class="card-body">
-                        <h5 class="card-title"><a href="#">Teacher name</a></h5>
+                        <h5 className="card-title"><a href="#">Teacher name</a></h5>
                     </div>
                 </div>
             </div>
             <div className="col-md-3">
-            <div class="card">
-                <a href="#"><img src="logo512.png" class="card-img-top" alt="..."></img></a>
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#">Teacher name</a></h5>
+            <div className="card">
+                <a href="#"><img src="logo512.png" className="card-img-top" alt="..."></img></a>
+                    <div className="card-body">
+                        <h5 className="card-title"><a href="#">Teacher name</a></h5>
                     </div>
                 </div>
             </div>
@@ -116,38 +117,38 @@ function Home() {
         {/* Testimonials */}
         <h3 className="pb-1 my-4 mt-5">Student Testimonials</h3>
         <div id="carouselExampleIndicators" class="carousel slide bg-dark text-white py-5" data-bs-ride="carousel">
-            <div class="carousel-indicators">
+            <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                <figure class="text-center">
-                    <blockquote class="blockquote">
+                <figure className="text-center">
+                    <blockquote className="blockquote">
                         <p>A well-known quote, contained in a blockquote element.</p>
                     </blockquote>
-                    <figcaption class="blockquote-footer">
+                    <figcaption className="blockquote-footer">
                         Someone famous in <cite title="Source Title">Source Title</cite>
                     </figcaption>
                 </figure>
                 </div>
                 <div className="carousel-item">
-                <figure class="text-center">
-                    <blockquote class="blockquote">
+                <figure className="text-center">
+                    <blockquote className="blockquote">
                         <p>A well-known quote, contained in a blockquote element.</p>
                     </blockquote>
-                    <figcaption class="blockquote-footer">
+                    <figcaption className="blockquote-footer">
                         Someone famous in <cite title="Source Title">Source Title</cite>
                     </figcaption>
                     </figure>
                 </div>
                 <div className="carousel-item">
-                <figure class="text-center">
-                    <blockquote class="blockquote">
+                <figure className="text-center">
+                    <blockquote className="blockquote">
                         <p>A well-known quote, contained in a blockquote element.</p>
                     </blockquote>
-                    <figcaption class="blockquote-footer">
+                    <figcaption className="blockquote-footer">
                         Someone famous in <cite title="Source Title">Source Title</cite>
                     </figcaption>
                     </figure>
